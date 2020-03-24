@@ -1,0 +1,28 @@
+<mat-card class="acteurs-card">
+    <mat-card-header class="titre">
+        Liste des acteurs
+    </mat-card-header>
+   
+    <mat-card-content>
+      
+        <table>
+            <tr>
+              <th>Prenom</th> 
+              <th>Nom</th>
+              
+            
+            </tr>
+            <tr *ngFor="let acteur of acteurs">
+                
+                <td>{{acteur.firstname}}</td>
+                <td>{{acteur.name}}</td>
+            </tr>
+                
+            <tr>
+                
+            </tr>
+          </table>
+
+    </mat-card-content>
+
+  </mat-card>

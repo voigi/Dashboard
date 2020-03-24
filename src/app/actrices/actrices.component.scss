@@ -1,11 +1,18 @@
-.example-card {
+
+
+
+.actrices-card {
     max-width: 400px;
     margin: 10px;
     background-color: rgb(245, 244, 244);
+    position: absolute;
+    bottom: 49vh;
+    left: 28.3vw;
     border:solid 1px black;
+
   }
 .titre{
-  width: 225px;
+  width: 175px;
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
@@ -14,6 +21,7 @@
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+   
   }
   
   td, th {

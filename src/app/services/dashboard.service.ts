@@ -15,4 +15,14 @@ export class DashboardService {
     .pipe(map(res => res));
     
   }
+  getActrices():Observable<DashboardService[]>{
+    return this.http.get<DashboardService[]>('http://localhost:8000/actor/feminin')
+    .pipe(map(res => res));
+    
+  }
+  getActeurs():Observable<DashboardService[]>{
+    return this.http.get<DashboardService[]>('http://localhost:8000/actor/masculin')
+    .pipe(map(res => res));
+    
+  }
 }

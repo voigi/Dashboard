@@ -11,16 +11,23 @@ import {MatTableModule} from '@angular/material/table';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ChartsModule } from 'ng2-charts';
 
 //import composant
 import { InterfaceComponent } from './interface/interface.component';
 import { FilmsComponent } from './films/films.component';
+import { ActricesComponent } from './actrices/actrices.component';
+import { ActeursComponent } from './acteurs/acteurs.component';
+import { CategoryComponent } from './category/category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InterfaceComponent,
     FilmsComponent,
+    ActricesComponent,
+    ActeursComponent,
+    CategoryComponent,
   
   ],
   imports: [
@@ -31,7 +38,7 @@ import { FilmsComponent } from './films/films.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    //NgbModule
+    ChartsModule
 
     
     

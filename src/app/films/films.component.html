@@ -1,0 +1,24 @@
+<mat-card class="example-card">
+    <mat-card-header class="titre">
+        Liste de films
+    </mat-card-header>
+   
+    <mat-card-content>
+      
+        <table>
+            <tr>
+              <th>Films</th>
+              <th>Année</th>
+              
+            </tr>
+            <tr *ngFor="let movie of movies">
+                <td>{{movie.title}}</td>
+                <td>{{movie.year}}</td>
+            </tr>
+            
+          </table>
+
+    </mat-card-content>
+
+  </mat-card>
+  

@@ -4,25 +4,16 @@
     </mat-card-header>
    
     <mat-card-content>
-      
         <table>
             <tr>
               <th>Prenom</th> 
               <th>Nom</th>
-              
-            
             </tr>
+<!-- Je parcoure mes données avec la directive ngFor -->
             <tr *ngFor="let acteur of acteurs">
-                
                 <td>{{acteur.firstname}}</td>
                 <td>{{acteur.name}}</td>
             </tr>
-                
-            <tr>
-                
-            </tr>
-          </table>
-
+        </table>
     </mat-card-content>
-
   </mat-card>

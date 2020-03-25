@@ -1,27 +1,27 @@
-<mat-card class="example-card">
+<mat-card class="film-card">
     <mat-card-header class="titre">
         Liste de films
     </mat-card-header>
    
     <mat-card-content>
-      
         <table>
             <tr>
               <th>Films</th>
               <th>Année</th>
-              
             </tr>
             <tr *ngFor="let movie of movies">
                 <td>{{movie.title}}</td>
                 <td>{{movie.year}}</td>
             </tr>
-            
-          </table>
-
+        </table>
     </mat-card-content>
-
-  </mat-card>
+</mat-card>
   
+  <!-- Composants -->
 <app-actrices></app-actrices>
 <app-acteurs></app-acteurs>
 <app-category></app-category>
+<app-productions></app-productions>
+<app-repartition></app-repartition>
+<app-moyenne></app-moyenne>
+<app-signature></app-signature>

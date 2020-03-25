@@ -18,6 +18,7 @@ export class CategoryComponent implements OnInit {
 
   barChartData: ChartDataSets[] = [
     { data: [2500, 1973, 2000, 2580, 1998], label: 'Best Category' }
+    
   ];
   constructor() { }
 

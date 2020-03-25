@@ -8,7 +8,11 @@ import { map } from 'rxjs/operators';
 })
 export class DashboardService {
 
+// HttpClient est utilisé pour les requêtes
   constructor(public http: HttpClient) {}
+
+// les méthodes de mon service ,on passe ici  par observable de rxjs.
+// ce sont ces méthodes qui sont appelés à être souscrite dans les fichiers .ts de mes composants 
 
   getMovies():Observable<DashboardService[]>{
     return this.http.get<DashboardService[]>('http://localhost:8000/movie')

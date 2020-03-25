@@ -2,28 +2,17 @@
     <mat-card-header class="titre">
         Liste des actrices
     </mat-card-header>
-   
     <mat-card-content>
-      
         <table>
             <tr>
               <th>Prenom</th> 
               <th>Nom</th>
-              
-            
             </tr>
             <tr *ngFor="let actrice of actrices">
-                
                 <td>{{actrice.firstname}}</td>
                 <td>{{actrice.name}}</td>
             </tr>
-                
-            <tr>
-                
-            </tr>
-          </table>
-
+        </table>
     </mat-card-content>
-
   </mat-card>
   

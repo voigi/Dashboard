@@ -1,23 +1,13 @@
-// .example-card {
-//     max-width: 670px;
-//     margin: 10px;
-//     background-color: rgb(245, 244, 244);
-//     border:solid 1px black;
-//     position:absolute;
-//     bottom: 51.3vh;
-//     left:55.7vw;
-//     height: auto;
-  
-//   }
 
 canvas{
-    max-width: 690px;
+    max-width: 690.1px;
     margin: 10px;
     background-color: rgb(245, 244, 244);
     border:solid 1px black;
     position:absolute;
-    bottom: 49vh;
+    bottom: 49.2vh;
     left:55.7vw;
-    height: auto;
+    border-radius: 3px;
+    box-shadow:0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12)
 }
  
